@@ -1,0 +1,41 @@
+<!DOCKTYPE HTML>
+<html>
+    <HEAD>
+        <title>JS</title>
+        <script>
+            function change (){
+                document.getElementById("p4").innerHTML="YOU"
+            }
+        </script>
+    </HEAD>
+    <BODY>
+        <h1>My Java Script</h1>
+        <p id="p1"></p>
+        <script>
+            document.getElementById('p1').innerHTML="This Is My First JavaScript";
+        </script>
+        <p id="p2"></p>
+        <script>
+            function Function1 (a,b) {
+                return a-b; 
+                
+            }
+            document.getElementById("p2").innerHTML=Function1(12,2);
+        </script>
+        <p id="p3">Hey You :)</p>
+        <button type="button" onclick="document.getElementById('p3').innerHTML='Whats Up?'">Change Please</button>
+        <p id="p4">LOVE</p>
+        <button type="button" onclick="change()">Chang by function</button>
+         <br><br><br>
+         
+         <img id="View IMG" src="SMILE.png" alt="View Image" width="200px">
+        <br><br><br>
+        <button type="button" onclick="KISS()">CHANGE TO KISS</button>
+        <script>
+            function KISS() {
+                document.getElementById("VIEW IMG").src="KISS.PNG"
+            }
+        </script>
+
+    </BODY> 
+</html>
