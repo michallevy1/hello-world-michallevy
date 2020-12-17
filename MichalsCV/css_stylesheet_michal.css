@@ -1,0 +1,211 @@
+*{
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    
+}
+h1 {
+    color: rgb(126, 85, 192);
+    text-align: center;
+    font-size: 320%;
+}
+h2 {
+    color: rgb(126, 85, 192);
+    text-align: center;
+    font-size: 150%;
+}
+h3 {
+    color:rgb(126, 85, 192) ;
+    font-size: 180%;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+h5 {
+    color: rgb(153, 35, 207) ;
+    text-align: left;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+ 
+h6 {
+    color: rgb(153, 35, 207) ;
+    text-align: center;
+    font-size: medium;
+}
+
+body {
+    background-color: rgb(252, 236, 241);
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+    grid-gap: 50px;
+    padding: 10px;
+    grid-template-rows:  50px 180px 330px 390px 170px ;
+    }
+        .top{grid-column: 1 / span 2;
+        grid-row: 1 / span 1;
+        }
+        
+        .item1{grid-column: 1 / span 5;
+            grid-row: 2 / span 1;
+            background-color:rgb(240, 205, 222);
+            text-align: center;
+            border-style: double;
+        }
+        .item2{grid-column: 1 / span 3;
+            grid-row: 3 / span 1;
+            background-color: rgb(240, 205, 222);
+            border-style: double;
+        }  
+        .item3{grid-column: 1 / span 3;
+            grid-row: 4 / span 1;
+            background-color: rgb(240, 205, 222);
+            border-style: double;
+        }
+        .item4{grid-column: 4 / span 3;
+            grid-row: 3 / span 1;
+            background-color: rgb(240, 205, 222);
+            border-style: double;
+ 
+        }
+        .item5{grid-column: 4 / span 3;
+            grid-row: 4 / span 1;
+            background-color: rgb(240, 205, 222);
+            border-style: double;
+
+        }
+
+        .item6{grid-column: 4 / span 3;
+            grid-row: 5 / span 1;
+            background-color: rgb(240, 205, 222);
+            border-style: double;
+        }
+
+        .item7{grid-column:  6/ span 1;
+            grid-row: 1 / span 1;
+            text-align: center;
+
+        }
+
+        .item8{grid-column: 1 / span 1;
+            grid-row: 5 / span 1;
+
+        }
+
+        .flip-card {
+            background-color: transparent;
+            width: 270px;
+            height: 270px;
+            perspective: 1000px;
+          }
+          
+          .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          }
+          
+          .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+          }
+          
+          .flip-card-front, .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+          }
+          
+          .flip-card-front {
+            background-color: #bbb;
+            color: black;
+          }
+          
+          .flip-card-back {
+            background-color: rgb(240, 205, 222);
+            color: white;
+            transform: rotateY(180deg);
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+            font-size: x-large  ;
+          }
+
+          details > summary {
+            color: rgb(153, 35, 207) ;
+            font-size: large;
+            padding: 3px;
+            width: 200px;
+            background-color:  rgb(143, 202, 202);
+            border: rgb(2, 2, 2);
+            box-shadow: 1px 1px 1px 1px #050505;
+            cursor: grab;
+          }
+          
+        details > p {
+
+            padding: 4px;
+            margin: 0;
+            box-shadow: 1px 1px 2pxrgb(143, 202, 202);
+            text-align: left;
+            font-size: 150%;
+         }
+
+         input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+          }
+          
+          .contctitem {
+            background-color: #c67ce9;
+            color: white;
+            padding: 8px 10px;
+            width: 100px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-align: center;
+
+          }
+
+          .contctitem2 {
+            background-color: #c67ce9;
+            color: white;
+            padding: 12px 5px;
+            width: 80PX;
+            cursor: pointer;
+            text-align: center;
+            grid-column: 1 / span 1;
+            grid-row: 1 / span 1;
+            border-style: double;
+          }
+
+          .container {
+            grid-column: 4 / span 1;
+            grid-row: 2 / span 1;
+            border-radius: 5px;
+            padding: 20px;
+          }
+          
+          .top2{
+            grid-column: 3 / span 2;
+            grid-row: 1 / span 1;
+          }
+
+          
