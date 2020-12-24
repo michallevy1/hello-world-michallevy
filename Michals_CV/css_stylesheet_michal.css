@@ -48,7 +48,7 @@ body {
     padding: 10px;
     grid-template-rows:  50px 180px 330px 390px 170px ;
     }
-        .top{grid-column: 1 / span 2;
+        .top{grid-column: 1 / span 4;
         grid-row: 1 / span 1;
         }
         
